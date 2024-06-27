@@ -54,4 +54,3 @@ class LRUCache(BaseCaching):
                 self.__keys.remove(keyIn)
             self.__keys.insert(keysLength, keyIn)
         return keyOut
-    
